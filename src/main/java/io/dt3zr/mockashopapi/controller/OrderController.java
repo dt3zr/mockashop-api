@@ -5,7 +5,6 @@ import io.dt3zr.mockashopapi.dto.OrderDto;
 import io.dt3zr.mockashopapi.dto.OrderEventDto;
 import io.dt3zr.mockashopapi.dto.OrderItemDto;
 import io.dt3zr.mockashopapi.dto.OrderSummaryDto;
-import io.dt3zr.mockashopapi.persistence.entity.Order;
 import io.dt3zr.mockashopapi.persistence.entity.mapper.OrderDetailsMapper;
 import io.dt3zr.mockashopapi.persistence.entity.mapper.OrderItemDetailsMapper;
 import io.dt3zr.mockashopapi.persistence.entity.mapper.OrderMapper;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Optional;
 import java.util.Set;
 
 import static java.util.stream.Collectors.toSet;
